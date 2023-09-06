@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE employees [
+  <!ELEMENT employees (employee)*>
+  <!ELEMENT employee (#PCDATA)>
+  <!ENTITY company "Rock and Gravel Company">
+]>
+<employees>
+  <employee>
+    Fred Flintstone, &company;
+  </employee>
+  <employee>
+    Barney Rubble, &company;
+  </employee>
+</employees>
