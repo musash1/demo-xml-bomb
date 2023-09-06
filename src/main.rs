@@ -29,7 +29,6 @@ fn main() -> std::io::Result<()> {
                 eprintln!("Error: {e}");
                 break;
             }
-            // There's more: https://docs.rs/xml-rs/latest/xml/reader/enum.XmlEvent.html
             _ => {}
         }
     }
